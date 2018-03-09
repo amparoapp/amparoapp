@@ -1,1 +1,166 @@
-hola
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AMPARO web platform</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+					<header id="header" class="alt">
+						<span class="logo"><img src="{{ url_for('static', filename='amparo.png') }}" alt="" width="40%" /></span>
+						<p style="font-size: 40px"><i>Salud y control en un solo dispositivo</i></p>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul>
+							<li><a href="#project" class="active">Sobre el proyecto</a></li>
+							<li><a href="#us">Sobre nosotros</a></li>
+							<li><a href="#whyamparo">Por qué elegir AMPARO</a></li>
+							<li><a style="background-color: #bb8fce; font-size: 20px" href="/login"><b>Entrar (Ejemplo Médicos)</b></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Introduction -->
+							<section id="project" class="main special">
+								<div class="spotlight">
+									<div class="content">
+										<header class="major">
+											<h2>Sobre el proyecto</h2>
+										</header>
+										<div class="row">
+											<div class="8u 12u(medium)">
+												<p>En un mundo donde cada vez es mas necesario tener en cuenta las nuevas tecnologías, pacientes de todo el mundo que necesitan una atención especial, tienen la posibilidad de recibir una atención continua con AMPARO.<br><br>
+
+												El médico podrá visualizar la evolución de una persona respecto a su enfermedad y podrá atender de una forma más precisa las necesidades del paciente, pudiendo dar unas soluciones y recomendaciones mas adecuadas a cada caso.</p><br><br>
+											</div>
+											<div class="4u 12u(medium)">
+												<img src="{{ url_for('static', filename='diagram.png') }}" alt="" width="90%" />
+											</div>
+										</div>
+										<div class="row">
+											<div class="4u 12u(medium)">
+												<img src="{{ url_for('static', filename='pulsera.png') }}" alt="" width="90%" />
+											</div>
+											<div class="8u 12u(medium)">
+												El dispositivo que recibe el paciente, está configurado a su medida, posee diferentes módulos activables que dependiendo de las necesidades serán activados o no.<br><br>
+
+												Según el código de colores (rojo, amarillo, verde) se transmitirá un mensaje al paciente si se nota que la medición de los parámetros son anormales, asi como, una recomendación automática para evitar riesgos.<br><br>
+
+												Cuando el aviso es rojo, se enviará un mensaje al contacto cercano con la ubicación del paciente avisado.	
+											</div>
+										</div>
+										</p>
+									</div>
+									
+								</div>
+							</section>
+
+						<!-- First Section -->
+							<section id="us" class="main special">
+								<header class="major">
+									<h2>Sobre nosotros</h2>
+								</header>
+								<ul class="features">
+									<li>
+										<img src=""/>
+										<h3><b>Michael Cenoz Lousteau</b></h3>
+										<p><i>Estudiante del Grado de Ingeniería Informática en el campus de Ciudad Real (Universidad de Castilla-La Mancha)</i></p>
+									</li>
+									<li>
+										<img src=""/>
+										<h3><b>Guiomar Pareja de Diego</b></h3>
+										<p><i>	Estudiante del Grado de Ingeniería Informática en el campus de Ciudad Real (Universidad de Castilla-La Mancha)</i></p>
+									</li>
+									<li>
+										<img src=""/>
+										<h3><b>Carlos Jesús Cebrián Sánchez</b></h3>
+										<p><i>Estudiante del Grado de Ingeniería Informática en el campus de Ciudad Real (Universidad de Castilla-La Mancha)</i></p>
+									</li>
+								</ul>
+							</section>
+
+						<!-- Second Section -->
+							<section id="whyamparo" class="main special">
+								<header class="major">
+									<h2>Por qué AMPARO</h2>
+									<p></p>
+								</header>
+								<ul class="statistics">
+									<li class="style1">
+										<span class="icon fa-signal"></span>
+									</li>
+								</ul>
+								<ul class="statistics">
+									<li class="style1">	
+										<strong>17%</strong> Mayores de 65 años
+									</li>
+									<li class="style2">
+										<strong>25%</strong> Trastorno mental mundial
+									</li>
+									<li class="style3">
+										<strong>43%</strong> Crecimiento de diabetes mundial
+									</li>
+									<li class="style4">
+										<strong>95%</strong> Enfermedad mundial
+									</li>
+									<li class="style5">
+										<strong>100%</strong> Quiere mejorar su salud 
+									</li>
+								</ul>
+								<p class="content">Según las estadísticas proporcionadas por la OMS, la población esta enferma, las enfermedades que necesitan control son prioritarias, por lo que AMPARO proporciona una manera sencilla y no intrusiva de controlar las enfermedades de una forma continua para que el médico pueda realizar un diagnostico completo, fiable y una solución eficaz.</p>
+							</section>
+					</div>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Contacto y contribución</h2>
+							<p>Si desea contactar con nosotros para dedicar tiempo al proyecto y contribuir a la causa, puede enviar un email a la dirección proporcionada a la derecha.</p>
+						</section>
+						<section>
+							<h2>Contacto</h2>
+							<dl class="alt">
+								<dt>Email</dt>
+								<dd><a>hackforgood.amparo.salud@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; AMPARO Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	</body>
+</html>
