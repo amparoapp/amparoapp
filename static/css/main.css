@@ -108,7 +108,7 @@
 	}
 
 	.row {
-		margin: 0 0 -1px -1.5em;
+		margin: 0 0 0 0;
 	}
 
 	.row.uniform > * {
@@ -2346,10 +2346,12 @@
 
 		.icon.style1 {
 			color: #efa8b0;
+			width: 100%;
 		}
 
 		.icon.style2 {
 			color: #c79cc8;
+			width: 100%;
 		}
 
 		.icon.style3 {
@@ -3258,7 +3260,7 @@
 		}
 
 		#nav strong, #nav b {
-			color: #636363;
+			color: #ffffff;
 		}
 
 		#nav h1, #nav h2, #nav h3, #nav h4, #nav h5, #nav h6 {

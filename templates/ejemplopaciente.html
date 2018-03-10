@@ -1,0 +1,123 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>AMPARO APP</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}" />
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+	</head>
+	<body>
+		<header id="header">
+			<span class="logo"><img src="{{ url_for('static', filename='amparo.png') }}" alt="" width="40%" /></span>
+		</header>
+				<!-- Main -->
+					<div id="main">
+						<!-- Introduction -->
+							<section id="app" class="main special">
+								<div class="content">
+										<div class="row">
+											<div class="8u">
+												<h2>Datos personales</h2>
+												<hr>
+												<div class="row">
+												<div class="6u" style="text-align: left">
+													Nombre: Francisco<br>
+													Apellidos: Sánchez González <br>
+													DNI : 00658845T <br>
+													Fecha nacimiento: 6 de Abril de 1940 <br>
+													Edad : 78 <br>
+													Ciudad: Ciudad Real <br>
+ 													Referencia: Paciente <br>
+													Estado civil: Casado <br>
+													Hijos: 2 <br>
+													Domicilio: Calle Gálvez nº 9 <br>
+													Teléfono: 926 22 55 88 <br>
+												</div>
+												<div class="4u">
+													<img src="{{ url_for('static', filename='francisco.png') }}" alt="" width="80%" />
+												</div>
+												<div class="2u">&nbsp;</div>
+												</div>
+											</div>
+											<div class="4u">
+												<h2>Gráficas a observar</h2>
+												<hr>
+												<img src="{{ url_for('static', filename='grafica.png') }}" alt="" width="100%" />
+												<div class="row">
+													<div class="12u">
+														<img src="{{ url_for('static', filename='frec_card.png') }}" alt="" width="100%" />
+													</div>
+												</div>
+												</div>
+											</div>
+										</div>	
+										<div class="row">
+											<div class="12u" style="text-align: left">
+												<h2 style="text-align: center">Expediente personal</h2>
+												<hr>
+												Hábitos: Fumador continuo, Alcoholismo heredado<br>
+												Alergias: No<br>
+												Antecedentes médicos: Principio de Alzheimer<br>
+												Antecedentes patoĺogicos: Ataques al corazón<br>
+												Hospitalizaciones: Dos hospitalizaciones, ver historial clínico<br><br>
+
+												<h2 style="text-align: center">Historial Clínico</h2>
+												<hr>
+												<strong>25/1/2018</strong><br><br>
+												Nullam a nulla molestie orci faucibus pharetra. Sed eget posuere neque, sed dapibus lacus. Nulla facilisi. Vivamus dignissim ante vel ipsum aliquam, eget ultrices lacus lobortis. Donec faucibus ac libero nec luctus. Aliquam tristique lectus lacinia elementum fermentum. Nulla facilisi. Mauris ultrices nulla est, at pharetra felis gravida sit amet. Integer viverra nisl dolor. Duis aliquet, metus eget finibus efficitur, nunc massa eleifend est, suscipit elementum sem arcu in nisl. Donec elementum nibh eu faucibus semper. Suspendisse sit amet lobortis felis, vel mollis risus. Duis faucibus ultricies est ac dignissim. Proin vulputate tortor sit amet dapibus dictum. Maecenas eu tincidunt eros.<br><br>
+
+												<strong>15/12/2017</strong><br><br>
+												Nulla id nibh ligula. Quisque at nisi suscipit, feugiat dui in, finibus ipsum. Fusce elit massa, auctor sit amet ligula nec, dignissim fermentum purus. Sed ac quam elit. Proin lorem neque, accumsan id elementum vitae, malesuada eu augue. Curabitur a justo vel leo pellentesque malesuada. Nullam auctor egestas sapien ac lacinia.<br><br>
+
+
+
+											</div>
+										</div>	
+								</div>
+							</section>
+
+						<!-- First Section -->
+
+				<!-- Footer -->
+					<footer id="footer">
+						<section>
+							<h2>Contacto y contribución</h2>
+							<p>Si desea contactar con nosotros para dedicar tiempo al proyecto y contribuir a la causa, puede enviar un email a la dirección proporcionada a la derecha.</p>
+						</section>
+						<section>
+							<h2>Contacto</h2>
+							<dl class="alt">
+								<dt>Email</dt>
+								<dd><a>hackforgood.amparo.salud@gmail.com</a></dd>
+							</dl>
+							<ul class="icons">
+								<li><a href="#" class="icon fa-twitter alt"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon fa-facebook alt"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon fa-instagram alt"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon fa-github alt"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+							</ul>
+						</section>
+						<p class="copyright">&copy; AMPARO Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrollex.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/jquery.scrolly.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/skel.min.js') }}"></script>
+			<script src="{{ url_for('static', filename='js/util.js') }}"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="{{ url_for('static', filename='js/main.js') }}"></script>
+	</body>
+</html>
